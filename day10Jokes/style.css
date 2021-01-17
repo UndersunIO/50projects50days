@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: rgb(197, 170, 16);
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -15,3 +16,45 @@ body {
     margin: 0;
 }
 
+.container {
+    background-color: whitesmoke;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 1px 5px 10px greenyellow;
+    max-width: 100%;
+    width: 800px;
+    border-radius: 30px;
+}
+
+h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.joke {
+    font-size: 5Opx;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 5Opx auto;
+    max-width: 600px;
+}
+
+.btn {
+    background-color: indigo;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px greenyellow;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 14px 40px;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+.btn:focus{
+    outline: 0;
+}
