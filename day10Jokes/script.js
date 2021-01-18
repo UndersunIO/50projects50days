@@ -17,9 +17,12 @@ function generateJoke(){
     .then((data) => {
         jokeEl.innerHTML = data.joke
     })
-} 
+}
 
-/* test async //
+
+/*
+=-----------------  --------- -------------------------     -------------------=
+test async //
 
 async function generateJoke(){
     const config = {
@@ -31,6 +34,6 @@ async function generateJoke(){
     const res = await fetch('https://icanhazdadjoke.com', config)
 
     const data = await res.json()
-    jokeEl.innerHTML = data.joke */
-
-  
+    jokeEl.innerHTML = data.joke
+=-----------------  --------- ---------------------------     ------------------=
+    */
